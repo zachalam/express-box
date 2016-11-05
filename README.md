@@ -23,8 +23,15 @@ cd express-box
 vagrant up
 ```
 
-## Verify Install
+## Usage
 Navigate your browser to: 192.168.33.10
 ```
-hello from express-box!
+Hello from express-box!
 ```
+
+## Existing Project?
+Simply drag and drop the Vagrant file into your project and run:
+```
+vagrant up
+```
+express-box expects a package.json and server.js file in /www.
